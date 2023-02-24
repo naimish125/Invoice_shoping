@@ -9,9 +9,8 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/':(context)=> Home(),
+         '/':(context)=> Home(),
         'item':(context)=> Homescreen(),
-        'add':(context) => InvoiceGenerator(),
       },
     ),
   );
